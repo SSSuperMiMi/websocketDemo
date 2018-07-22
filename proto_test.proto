@@ -1,0 +1,17 @@
+syntax = "proto3";
+ package example;
+
+ message body1 {    //  aa 会生成 Aa 命名的结构体
+     int32 id = 1;
+ }
+
+
+message body2 {    //  aa 会生成 Aa 命名的结构体
+     string name = 2;
+ }
+
+ message Message {    //  aa_bb 会生成 AaBb 的驼峰命名的结构体
+    int32 id = 1;
+
+    bytes message_data=3;
+ }
