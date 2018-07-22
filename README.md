@@ -17,10 +17,11 @@ https://www.cnblogs.com/zlxbky/p/7727895.html
 // 开源go语言websocket库
 go get github.com/gorilla/websocket
 
-// 开源go语言uuid生产库
+// 开源go语言uuid生成库
 go get -u github.com/satori/go.uuid
 
 
-
 // git提交代码命令
-git commit -m "学习连接和命令" README.md 
+git commit -m "学习连接和命令" README.md
+
+git push origin master 
